@@ -33,7 +33,6 @@ a {
     margin: var(--section-title-margin);
     --text-color: var(--section-title-color);
 }
-}
 .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-size-xx-large);
