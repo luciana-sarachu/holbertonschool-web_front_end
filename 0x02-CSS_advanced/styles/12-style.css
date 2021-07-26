@@ -35,7 +35,8 @@ a {
 }
 .section-tagline {
     color: var(--color-primary);
-    font-family: var(--font-size-xx-large);
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
 }
 :root {
