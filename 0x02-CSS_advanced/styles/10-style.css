@@ -23,6 +23,9 @@ a {
 .card-category {
     color: var(--color-primary);
 }
+.section-header {
+    text-align: var(--section-header-align);
+}
 .section-tagline {
     color: var(--color-primary);
 }
@@ -45,7 +48,5 @@ a {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-}
-.section-header-align {
-    text-align: center; 
+    --section-header-align: center; 
 } 
