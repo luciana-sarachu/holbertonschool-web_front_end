@@ -100,6 +100,6 @@ a:active {
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
 } 
-.section-footer {
+.footer {
     padding: var(--footer-padding);
 }
