@@ -27,7 +27,7 @@ a:visited {
     font-style: italic;
 }
 a:hover {
-    text-decoration:underline;    
+    text-decoration: underline;    
 }
 a:active {
     background-color: var(--color-light-grey);
@@ -105,7 +105,7 @@ a:active {
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(color-primary);
+    --nav-item-link-hover: var(--color-primary);
 } 
 .footer {
     padding: var(--footer-padding);
