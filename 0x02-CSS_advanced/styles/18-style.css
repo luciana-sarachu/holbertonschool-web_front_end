@@ -131,6 +131,6 @@ a:active {
     display: block;
     padding: 0.5rem 1rem;
 }
-.nav .nav-link :hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);   
 }
