@@ -127,7 +127,7 @@ a:active {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-.nav .nav-link {
+.nav .nav-link :hover {
     display: block;
     padding-top: 50%;
     padding-bottom: 50%;
