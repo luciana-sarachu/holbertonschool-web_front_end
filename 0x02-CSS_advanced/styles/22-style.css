@@ -79,11 +79,6 @@ a:active {
     font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
 }
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-} 
 .container {
     width: 960px;
     margin-left: auto;
@@ -186,4 +181,9 @@ ul.row {
     content: "";
     display: table;
     clear: both;	
-  }
+}
+[data-section-theme=“dark”] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+} 
