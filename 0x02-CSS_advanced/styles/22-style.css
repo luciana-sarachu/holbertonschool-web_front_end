@@ -181,9 +181,11 @@ ul.row {
     content: "";
     display: table;
     clear: both;	
-}
-[data-section-theme=“dark”] {
+  }
+  [data-section-theme=“dark”] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
 } 
+
+  
