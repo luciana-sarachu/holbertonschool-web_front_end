@@ -71,6 +71,7 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -118,7 +119,7 @@ a:active {
 .nav {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
     text-align: center;
 }
 .nav .nav-item {
