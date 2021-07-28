@@ -38,7 +38,7 @@
   .button:hover {
     color: var(--button-hover-colorver-color);
     text-decoration: var(--button-hover-text-decoration);
-    background: var(--button-hover-background);
+    background-color: var(--button-hover-background);
   }
   a:visited {
     font-style: italic;
