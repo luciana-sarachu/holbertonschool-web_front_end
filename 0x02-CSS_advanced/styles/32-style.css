@@ -49,7 +49,7 @@
    color: var(--button-hover-color);
    text-decoration: var(--button-hover-text-decoration);
    background-color: var(--button-hover-background);
-   transition: var(--transition-duration);
+   transition-duration: var(--transition-duration);
    transition-property: color, var(--background-color);
  }
   .visually-hidden {
