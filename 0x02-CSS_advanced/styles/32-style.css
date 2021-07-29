@@ -357,7 +357,6 @@
   }
   .card-work:hover .card-image {
       transform: scale(1.2);
-      transition: var(--transition-duration) var(--transition-cubic-bezier); 
   }
   .card-work:hover .card-outer {
       transform: scale(0.95);
