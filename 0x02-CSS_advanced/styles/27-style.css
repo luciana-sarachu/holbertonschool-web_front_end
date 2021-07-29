@@ -122,11 +122,7 @@
       margin-bottom: 5rem;
   }
   .section-hero .section-inner {
-      padding-top: 10rem;
-      padding-right: 40rem;
-      padding-bottom: 2rem;
-      padding-left: 0;
-
+      padding: 10rem 40rem 2rem 0;
   }
   .container {
     width: 960px;
