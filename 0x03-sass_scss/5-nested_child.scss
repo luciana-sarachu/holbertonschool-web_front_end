@@ -1,0 +1,8 @@
+/*text color for elements in body and to any elements of class .red that are the first children of the body*/
+body {
+    color: #3D3D3D; 
+    body > .red {
+      color: #FF0000; 
+    }
+}
+  
