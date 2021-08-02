@@ -1,7 +1,7 @@
 /*text color to button and hover button*/
 button {
     color: #FF0000; 
-    button:hover {
+    &:hover {
       color: #00FF00;
     }
 }
