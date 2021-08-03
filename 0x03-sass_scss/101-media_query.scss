@@ -1,7 +1,7 @@
 /* sass file to assign font size responsive */
 h1 {
     font-size: 20px; 
-    @media (max-width: 320px) {
+    @media screen and (max-width: 320px) {
         font-size: 14px;
      }
  }
