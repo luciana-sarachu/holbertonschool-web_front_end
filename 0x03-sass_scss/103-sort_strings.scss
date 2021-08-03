@@ -10,7 +10,6 @@
         }
       }
       $sortedlist: append($sortedlist, $value, space);
-      $list_to_sort: list-remove($list_to_sort, index($list_to_sort, $value));
     }
     @debug $sortedlist
   }
