@@ -497,7 +497,7 @@
     width: 10rem;
     height: 10rem;
   }
-  
+
   .card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
@@ -526,7 +526,7 @@
     background-position: 50% 0;
 }
 .hero-article::before {
-    content: empty;
+    content: "";
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
@@ -546,4 +546,19 @@
     padding: 7rem 0 0;
     z-index: 2;
 }
+article {
+  padding: 5rem 0;
+}
+/* Post
+  ============================= */
 
+.post {
+ display: flex; 
+}
+.post-content {
+  width: 100%;
+}
+.post-aside {
+  order: -1;
+  min-width: 20%;
+}
