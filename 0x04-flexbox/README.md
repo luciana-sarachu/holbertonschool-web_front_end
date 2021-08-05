@@ -338,6 +338,6 @@ Property: content, Value: empty
 
 In your 14-article.html, inside the post-share div
 
-Copy paste the social nav list (already existing in the footer) inside
-Remove the li with Instagram (3rd one)
-Replace the href in the links with a default value ( #)
+- Copy paste the social nav list (already existing in the footer) inside
+- Remove the li with Instagram (3rd one)
+- Replace the href in the links with a default value ( #)
