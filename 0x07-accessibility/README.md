@@ -77,7 +77,7 @@ Check with Axe to ensure the issue is fixed.
 
 Rendering the page should display something like this:
 
-![Accessibility](https://photos.google.com/search/_tra_/photo/AF1QipOyyIZdxFM1gr8VjrA18Dr1YawmNlckYFtjjy09)
+![Accessibility](https://lh3.googleusercontent.com/80dkB0nH5f7GbA3vvImEMvsEQeCPRBP0t7y9DoDFPK307ojZvrUMRnBUPVnHW3o5UiiorlRDaVPTsfIKIhSDNk9OnUkyvnSgfu-J7Td5r7BEpxe1bUBIaB3yyfwFYkSuH73po0jSJQ0yNViDd3hhSfTGEPZyNwhvdWZTHUT1BWeJl_rUGPKo45tq2LUbauJYSvXIOzlVIq8TyxeF6z7GMwMaaG-TMY3GI5K4G6ZhEbIfisPRhVbrCfmhug7I9dH6ZxeJuGFNqsGDuo9Jn4rrv0WVNvDH0EgLDbNPSI5bHuXQSLiMSaWMO1wcbkHF03agfApLaLk2ar9I5MREEPQ8R8c2MYNnYKd86I61c5wsLCrhBGHVYA4Ruk-bF2fh7SsxUZDAlMAZWD6WJ8r_FzTRXEOuXAZOBOPYe9F3vin8T2v5TKbQArYUpjVOnoYxuDg7IVYrGxvM6yVQ99zPwOGnP3ONTRgUeY_XwPHCiZPWUtZHBl_3cWkk5PiwXVyrHH1GNljfj-Sz6W-0EN4VB8zE02FeB8uW80CXbc9ol3Wg-dUkjN83A_msjjWUQ_cv9EScF76Iqa7YrIMhWk5_s-rwMK_-Q95Fp1QhbgByQOJ6gWcYJ1qof-j9IX6IXD5pXnlJhIol_AE8nJR5JV8dZaOc97I46CQJW4rzNiXP06xrQoQi8__zr6K0H2NeCjgMx79CC7qy0ZTejS9KBd7U1JPzNvIo=w640-h657-no?authuser=0)
 
 ***3. Documents must have <title> element to aid in navigation***
 
@@ -144,24 +144,25 @@ Taking your code from the previous task, in your fix-a11y/08-index.html file
 
 Like our Techium project, we are going to create an h1 just after the <div class="header"> closing tag. (The h1 will be sibling to the <div class="header"> div)
 Text: Homepage
-Change <h6>This is me</h6> to be <h2>This is me</h2>
-Change <h1>Philip Gilbert</h1> to be <span>Philip Gilbert</span>
-Change <h6>About Me</h6> to be <h2>About Me</h2>
-Change <h1>Personal Details</h1> to be <span>Personal Details</span>
-Change <h1>My Offered Services</h1> to be <h2>My Offered Services</h2>
-Change <h4>Web Design</h4> to be <h3>Web Design</h3>
-Change <h4>Web Development</h4> to be <h3>Web Development</h3>
-Change <h1 class="counter">2536</h1> to be <span class="counter">2536</span>
-Change <h1 class="counter">6784</h1> to be <span class="counter">6784</span>
-Change <h1>Client's Feedback About Me</h1> to be <h2>Client's Feedback About Me</h2>
-Change <h4>Harriet Maxwell</h4> to be <span>Harriet Maxwell</span>
-Change <h1>Choose Your Plan</h1> to be <h2>Choose Your Plan</h2>
-Change <h1>01</h1> to be <h3>01</h3>
-Change <h1>$199.00</h1> to be <span>$199.00</span>
-Change <h4>About Me</h4> to be <span>About Me</span>
-Change <h4>Newsletter</h4> to be <span>Newsletter</span>
-Change <h4>Follow Me</h4> to be <span>Follow Me</span>
-Fixing wrong headings is not an easy task. Headings represent the outline of your content. Like the table of contents in a book, headings should help to understand what is inside your page.
+- Change <h6>This is me</h6> to be <h2>This is me</h2>
+- Change <h1>Philip Gilbert</h1> to be <span>Philip Gilbert</span>
+- Change <h6>About Me</h6> to be <h2>About Me</h2>
+- Change <h1>Personal Details</h1> to be <span>Personal Details</span>
+- Change <h1>My Offered Services</h1> to be <h2>My Offered Services</h2>
+- Change <h4>Web Design</h4> to be <h3>Web Design</h3>
+- Change <h4>Web Development</h4> to be <h3>Web Development</h3>
+- Change <h1 class="counter">2536</h1> to be <span class="counter">2536</span>
+- Change <h1 class="counter">6784</h1> to be <span class="counter">6784</span>
+- Change <h1>Client's Feedback About Me</h1> to be <h2>Client's Feedback About Me</h2>
+- Change <h4>Harriet Maxwell</h4> to be <span>Harriet Maxwell</span>
+- Change <h1>Choose Your Plan</h1> to be <h2>Choose Your Plan</h2>
+- Change <h1>01</h1> to be <h3>01</h3>
+- Change <h1>$199.00</h1> to be <span>$199.00</span>
+- Change <h4>About Me</h4> to be <span>About Me</span>
+- Change <h4>Newsletter</h4> to be <span>Newsletter</span>
+- Change <h4>Follow Me</h4> to be <span>Follow Me</span>
+
+ Fixing wrong headings is not an easy task. Headings represent the outline of your content. Like the table of contents in a book, headings should help to understand what is inside your page.
 
 Always ask yourself if that word or sentence would make sense for anybody visiting your website.
 
