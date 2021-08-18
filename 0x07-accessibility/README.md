@@ -77,7 +77,7 @@ Check with Axe to ensure the issue is fixed.
 
 Rendering the page should display something like this:
 
-![Accessibility](https://photos.app.goo.gl/edLuAYYbpfvqf3QS9)
+![Accessibility](./images/Accessibility.png)
 
 ***3. Documents must have <title> element to aid in navigation***
 
