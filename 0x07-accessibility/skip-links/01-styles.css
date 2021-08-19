@@ -188,12 +188,12 @@
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
   }
-  
+
   .off-screen {
     left: -100vw;
     position: absolute;
   }
-  
+
   .skip-link {
     background: var(--color-black);
     color: var(--color-white);
@@ -598,6 +598,10 @@
     padding-top: 5rem;
   }
   
+  .article-page .header {
+    background-color: transparent;
+  }
+  
   @media only screen and (max-width: 767px) {
     .section-hero {
       margin: -0.1rem 0;
@@ -697,7 +701,7 @@
     opacity: 1;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-}
+  }
   
   .card-work .card-title a::after {
     position: absolute;
@@ -707,7 +711,7 @@
     bottom: 0;
     content: '';
   }
-   
+  
   @media only screen and (max-width: 767px) {
   
     .card-work .card-inner {
@@ -723,7 +727,7 @@
       display: block;
       padding: 2rem 1rem 0 1rem;
     }
-    
+  
     .card-work:hover .card-inner {
       background-color: transparent;
     }
@@ -1122,4 +1126,3 @@
     cursor: text;
     margin: 0 1rem;
   }
-  
