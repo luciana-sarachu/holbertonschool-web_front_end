@@ -4,7 +4,7 @@ function createClassRoom(numbersOfStudents) {
             return seat;
         }
     }
-    let students = [];
+    students = [];
     for (let i = 0; i < numbersOfStudents; i++) {
         students[i] = studentSeat(i + 1);
     }

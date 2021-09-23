@@ -1,8 +1,8 @@
-globalVariable = "welcome";
+globalVariable = "welcome ";
 
 function outer() {
     alert(globalVariable);
-    let course = "Holberton";
+    let course = "Holberton ";
     function inner() {
         alert(globalVariable + course);
         let exclamation = "!";

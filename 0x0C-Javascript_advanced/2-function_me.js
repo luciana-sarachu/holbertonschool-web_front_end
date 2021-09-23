@@ -1,6 +1,6 @@
-function welcomeMessage(fullname) {
-    return function() {alert("welcome" + fullname)};
+function welcomeMessage(fullname){
+    return function() {alert("welcome " + fullname)};
 }
-let guillaume = welcomeMessage("Guillaume");
-let alex = welcomeMessage("Alex");
-let fred = welcomeMessage("Fred");
+guillaume = welcomeMessage("Guillaume");
+alex = welcomeMessage("Alex");
+fred = welcomeMessage("Fred");
