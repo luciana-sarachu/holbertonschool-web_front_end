@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <title>Task 12</title>
+</head>
+
+<body>
+    <script type="application/javascript">
+        function addPostRow(data) {
+            let p = $("<p id='row-" + data.id + "'></p>");
+            let span1 = $("<span></span>");
+            let span2 = $("<span></span>");
+            span1.append("(delete)");
+            span2.append("Post created with id " + data.id + ", title: " + data.title + ", author: " + data.author);
+            span1.click(function() {
+            deletePost(data.id);
+          });
+            p.append(span1, span2);
+            $("body").append(p);
+        }
+
+        function listPosts() {
+            $.get("http://localhost:3000/posts")
+                .done(function (data) {
+                    data.forEach(element => {
+                        addPostRow(element);
+                    });
+                })
+                .fail(function () {
+                    alert("Server Error");
+                })
+        }
+        function deletePost(id) {
+          $.ajax
+          ({
+            type: "DELETE",
+            url: "http://localhost:3000/posts/" + id,
+            success: function (data) {
+              $("#row-" + id).remove();
+            },
+            error: function(error) {
+              alert("Post was not deleted");
+            }
+          });
+        }
+        function buildForm() {
+            let form = $("<form></form>");
+            let div1 = $("<div></div>");
+            let div2 = $("<div></div>");
+            let submit = $("<input type='submit'>");
+
+            div1.append("<label for='author'>Author</label>");
+            div1.append("<input type='text' id='author'>");
+            div2.append("<label for='title'>Title</label>");
+            div2.append("<textarea id='title'></textarea>");
+            form.submit(function (event) {
+                event.preventDefault();
+                sendForm();
+            });
+
+            form.append(div1, div2, submit);
+            $("body").append(form);
+        }
+
+        function sendForm() {
+            $("form").after("About to send the query to the API");
+            let val1 = $("input").val();
+            let val2 = $("textarea").val();
+            let data = { "title": val1, "author": val2 };
+
+            $.ajax
+                ({
+                    type: "POST",
+                    url: "http://localhost:3000/posts",
+                    data: data,
+                    success: function (data) {
+                        addPostRow(data);
+                    },
+                    error: function (error) {
+                        alert("Error sending the POST query");
+                    }
+                });
+        }
+        listPosts();
+        buildForm();
+    </script>
+</body>
+
+</html>
