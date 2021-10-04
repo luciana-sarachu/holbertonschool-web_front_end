@@ -1,6 +1,6 @@
 function createClassRoom(numbersOfStudents) {
     function studentSeat(seat) {
-        return function() {
+        return function () {
             return seat;
         }
     }
